@@ -1,8 +1,6 @@
 #!/bin/bash
 
-## Execute this shell as root
-
-npm install -g appium -unsafed-perm=true -allow-root		# Install appium
+## First install appium with npm install -g appium -unsafed-perm=true -allow-root
 path=$($HOME)	# Home variable
 echo $path
 cd $path		# Change to home directory
